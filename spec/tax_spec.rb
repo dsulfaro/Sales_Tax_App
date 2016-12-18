@@ -4,7 +4,7 @@ require_relative '../lib/Tax'
 describe Tax do
 
  list = ["book", "chocolate"]
-Tax.set_all_exemptions(list)
+ Tax.set_all_exemptions(list)
 
  describe '::set_all_exemptions' do
    it 'correctly sets the list of exemptions with an array as input' do
